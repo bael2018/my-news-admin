@@ -1,0 +1,65 @@
+
+.signin{
+    margin-top: 20px;
+}
+
+.signin_title{
+    font-size: 30px;
+    width: 80%;
+    color: rgb(51, 51, 51);
+    margin: 0px;
+}
+
+.signin_body{
+    margin-top: 25px;
+}
+
+.signin_body form div{
+    margin-bottom: 30px;
+}
+
+.signin_body form div input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    outline: none;
+    font-size: 16px;
+    transition: .3s;
+    border: 1px solid rgb(190, 190, 190);
+}
+
+.signin_body form div input:focus{
+    background: #00e1ff;
+    color: white;
+    border: 1px solid #00e1ff;
+}
+
+.signin_body form div input:focus::placeholder{
+    color: white;
+}
+
+.activeInput{
+    background: #00e1ff;
+    color: white;
+    border: 1px solid #00e1ff !important;
+}
+
+.isValid{
+    color: red;
+    font-weight: 500;
+    align-items: center;
+    line-height: 1.6;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.isValid svg{
+    margin-top: 5px;
+    width: 10%;
+    font-size: 25px;
+}
+
+.isValid span{
+    width: 90%;
+    display: block;
+}

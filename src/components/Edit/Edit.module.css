@@ -1,0 +1,88 @@
+
+
+.edit{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+    padding: 20px;
+}
+
+.edit_header{
+    width: 100%;
+    height: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit_header button{
+    background: #01cbe6;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+.edit_body{
+    width: 100%;
+    height: 94%;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.edit_body_wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.edit_body_wrapper div{
+    width: 48%;
+    margin-bottom: 30px;
+}
+
+.edit_body_wrapper div input{
+    width: 100%;
+    border: 1px solid rgb(185, 185, 185);
+    box-sizing: border-box;
+    outline: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.edit_body_footer textarea:focus,
+.edit_body_wrapper div input:focus{
+    border: 1px solid #01cbe6;
+}
+
+.edit_body_footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.edit_body_footer textarea{
+    width: 100%;
+    border: 1px solid rgb(185, 185, 185);
+    outline: none;
+    border-radius: 5px;
+    padding: 15px;
+    height: 250px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.edit_body_footer button{
+    width: 200px;
+    background: #01cbe6;
+    cursor: pointer;
+    outline: none;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+}

@@ -1,0 +1,142 @@
+
+.addition{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+.addition_wrapper{
+    width: 100%;
+}
+
+.addition_wrapper div{
+    width: 60%;
+    margin-bottom: 40px;
+}
+
+.addition label{
+    cursor: pointer;
+    color: rgb(78, 78, 78);
+}
+
+.addition label h3{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.addition label h3 svg{
+    margin-right: 10px;
+}
+
+.addition label input{
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 15px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 15px;
+    outline: none;
+    color: white;
+    box-sizing: border-box;
+}
+
+.addition label input:focus{
+    border: 1px solid #01cbe6 !important;
+    background: #01cbe6;
+    color: white;
+}
+
+.addition label input:focus::placeholder{
+    color: white;
+}
+
+.addition_wrapper button{
+    width: 100%;
+    padding: 15px 0;
+    cursor: pointer;
+    background: rgb(87, 87, 87);
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.choose{
+    border-top: 1px solid grey;
+    align-items: center;
+    display: flex;
+    margin: 0px !important;
+    margin-bottom: 25px !important;
+    border-bottom: 1px solid grey;
+}
+
+.choose div{
+    border: 1px solid grey;
+    height: 40px;
+    width: 40%;
+    cursor: pointer;
+    margin-top: 30px;
+    position: relative;
+}
+
+.choose div h3{
+    width: 100%;
+    margin: 0px;
+    left: 0;
+    align-items: center;
+    color: rgb(78, 78, 78);
+    justify-content: center;
+    display: flex;
+    top: 0;
+    position: absolute;
+    height: 100%;
+}
+
+.choose div span{
+    position: absolute;
+    background: white;
+    height: 0px;
+    bottom: 0;
+    overflow-y: scroll;
+    left: -0.2%;
+    transition: .1s;
+    width: 100%;
+    border: 1px solid grey;
+    border-bottom: none;
+}
+
+.choose_inside{
+    bottom: -380% !important;
+    height: 150px !important;
+}
+
+.choose div span::-webkit-scrollbar{
+    width: 3px;
+    background: rgb(223, 223, 223);
+}
+
+.choose div span::-webkit-scrollbar-thumb{
+    background: #01cbe6;
+}
+
+.choose div span p{
+    width: 100%;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 33%;
+    font-weight: 500;
+    border-bottom: 1px solid grey;
+    color: rgb(75, 75, 75);
+}
+
+.choose div span p:hover{
+    background: #01cbe6;
+    color: white;
+}
